@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Project SYSTEM "Project-5.1.dtd">
+<!-- eric project file for project Rename -->
+<!-- Saved: 2019-07-22, 15:16:06 -->
+<!-- Copyright (C) 2019 余时锐, 15071158534@163.com -->
+<Project version="5.1">
+  <Language>en_US</Language>
+  <Hash>19382a25fe9e3ca57fa425ec74bd6e2a750235e6</Hash>
+  <ProgLanguage mixed="0">Python3</ProgLanguage>
+  <ProjectType>PyQt5</ProjectType>
+  <Description>余时锐重命名工具</Description>
+  <Version>0.1</Version>
+  <Author>余时锐</Author>
+  <Email>15071158534@163.com</Email>
+  <Eol index="0"/>
+  <Sources>
+    <Source>Ui_main.py</Source>
+    <Source>__init__.py</Source>
+    <Source>yu_main.py</Source>
+    <Source>yu_rc.py</Source>
+  </Sources>
+  <Forms>
+    <Form>main.ui</Form>
+  </Forms>
+  <Translations/>
+  <Resources>
+    <Resource>yu.qrc</Resource>
+  </Resources>
+  <Interfaces/>
+  <Others/>
+  <Vcs>
+    <VcsType>None</VcsType>
+  </Vcs>
+  <FiletypeAssociations>
+    <FiletypeAssociation pattern="*.e4p" type="OTHERS"/>
+    <FiletypeAssociation pattern="*.idl" type="INTERFACES"/>
+    <FiletypeAssociation pattern="*.md" type="OTHERS"/>
+    <FiletypeAssociation pattern="*.py" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.py3" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.pyw" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.pyw3" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.qm" type="TRANSLATIONS"/>
+    <FiletypeAssociation pattern="*.qrc" type="RESOURCES"/>
+    <FiletypeAssociation pattern="*.rst" type="OTHERS"/>
+    <FiletypeAssociation pattern="*.ts" type="TRANSLATIONS"/>
+    <FiletypeAssociation pattern="*.txt" type="OTHERS"/>
+    <FiletypeAssociation pattern="*.ui" type="FORMS"/>
+    <FiletypeAssociation pattern="README" type="OTHERS"/>
+    <FiletypeAssociation pattern="README.*" type="OTHERS"/>
+  </FiletypeAssociations>
+</Project>
