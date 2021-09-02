@@ -65,15 +65,7 @@ class ReName(QMainWindow, Ui_MainWindow):
         self.setWindowIcon(QIcon(':/yu/yu.ico'))
 
         # 标题
-        self.setWindowTitle('余时锐文件重命名v3.0')
-
-        # 不能修改表格内容
-        # self.tableWidget.setEditTriggers(QAbstractItemView.NoEditTriggers)
-
-        # 表格列宽
-        # self.tableWidget.setColumnWidth(0, 100)
-        # self.tableWidget.setColumnWidth(1, 100)
-        # self.tableWidget.setColumnWidth(2, 50)
+        self.setWindowTitle('余时锐文件重命名v4.0')
 
         # 表格0行
         self.tableWidget.setRowCount(0)
