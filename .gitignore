@@ -133,3 +133,5 @@ dmypy.json
 /.idea/modules.xml
 /.idea/vcs.xml
 /.idea/xiaoxihongzha.iml
+
+__init__.py
