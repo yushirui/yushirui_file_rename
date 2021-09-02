@@ -8,7 +8,6 @@ import os
 
 import sys
 
-
 # 导入正则
 import re
 
@@ -18,9 +17,6 @@ from urllib.parse import unquote
 from PyQt5.QtWidgets import *
 from PyQt5.QtCore import *
 from PyQt5.QtGui import *
-
-
-
 
 # 导入ui文件
 from Ui_main import Ui_MainWindow
@@ -66,6 +62,12 @@ class ReName(QMainWindow, Ui_MainWindow):
 
         # 标题
         self.setWindowTitle('余时锐文件重命名v4.0')
+
+        # 大小
+        self.resize(600, 800)
+
+        # 位置
+        self.move(0, 0)
 
         # 表格0行
         self.tableWidget.setRowCount(0)
@@ -350,6 +352,7 @@ class ReName(QMainWindow, Ui_MainWindow):
     def dragMoveEvent(self, file):
         # self.setWindowTitle('鼠标移入')
         pass
+
 
 # pyinstaller -F -w -i yu.ico main.py
 if __name__ == "__main__":
